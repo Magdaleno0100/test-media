@@ -10,7 +10,7 @@ namespace api_media.Controllers
     public class UserController : ControllerBase
     {
         /// <summary>
-        /// Get users
+        /// Get users test
         /// </summary>
         /// <returns></returns>
         [HttpGet]
