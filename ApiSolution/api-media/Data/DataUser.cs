@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using api_media.Models;
 
 namespace api_media.Data
@@ -16,6 +19,11 @@ namespace api_media.Data
         public List<User> Select()
         {
             return users;
+        }
+
+        public User SelectUser()
+        {
+            return users[0];
         }
     }
 }
