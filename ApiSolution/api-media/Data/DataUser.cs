@@ -20,5 +20,10 @@ namespace api_media.Data
         {
             return users;
         }
+
+        public User SelectUser()
+        {
+            return users[0];
+        }
     }
 }
