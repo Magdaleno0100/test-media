@@ -9,10 +9,14 @@ namespace api_media.Repository
 {
     public class UserRepository
     {
-        
         public List<User> GetUsers()
         {
             return new DataUser().Select();
+        }
+
+        public User GetUser()
+        {
+            return new User();
         }
     }
 }
