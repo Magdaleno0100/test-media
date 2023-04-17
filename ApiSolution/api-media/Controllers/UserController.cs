@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using api_media.Models;
 using api_media.Repository;
-using Microsoft.AspNetCore.Mvc;
 
 namespace api_media.Controllers
 {
