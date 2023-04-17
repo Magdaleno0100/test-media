@@ -9,6 +9,10 @@ namespace api_media.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
+        /// <summary>
+        /// Get users
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<User> Get()
         {
